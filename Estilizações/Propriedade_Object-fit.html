@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizações CSS</title>
+    <style>
+    div {
+        width: 200px;
+        height: 300px;
+        border: 5px solid blue;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    #contain {
+        object-fit: contain;
+    }
+    #cover {
+        object-fit: cover;
+    }
+    #none {
+        object-fit: none;
+    }
+    #scale-down {
+        object-fit: scale-down;
+    }
+    
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>object-fit</code> em CSS</h1>
+    <br>
+    <div id="fill">
+    <code>object-fit: fill</code> 
+        <img src="reicharles.jpg" id="fill">
+    </div>
+
+    <code>object-fit: contain;</code>
+    <div id="contain">
+        <img src="reicharles.jpg" id="contain">
+    </div>
+    <br>
+    <code>object-fit: cover;</code>
+    <div id="cover">
+        <img src="reicharles.jpg" id="cover">
+    </div>
+    <br>
+    <code>object-fit: none;</code>
+    <div id="none">
+        <img src="reicharles.jpg" id="none">
+    </div>
+    <br>
+    <code>object-fit: scale-down;</code>
+    <div id="scale-down">
+        <img src="reicharles.jpg" id="scale-down">
+    </div>
+</body>
+</html>
