@@ -1,0 +1,2 @@
+Site de exemplos de padronização e estilos css para páginas.
+https://projects.verou.me/css3patterns/
