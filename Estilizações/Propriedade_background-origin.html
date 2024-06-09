@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade de estilização, background-origin</title>
+<style>
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FPampa&psig=AOvVaw3EQTeI8o8wVNhwGXCnWXNv&ust=1718037443029000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIiX9q36zoYDFQAAAAAdAAAAABAE);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 15px dashed palegreen
+    padding 30px;
+}
+
+#padding-box {
+    background-origin: padding-box;
+} /*Vai a borda caixa vai estar externo ao elemento da imagem */
+
+#border-box {
+    background-origin: border-box;
+}/*A borda da caixa vai estar interno ao elemento da imagem, na beirada */
+
+#content-box {
+    background-origin: content-box;
+} /* A Borda da caixa vai estar externo, afastatado da imagem como uma borda de caixa, o conteudo estará dentro dessa area. */
+</style>
+</head>
+<body>
+    <h1>Propriedade <code>background-origin</code></code></h1>
+<div id="exemplo">
+</div>
+<br>
+
+</body>
+</html>
