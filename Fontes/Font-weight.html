@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="n">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes - Font-weight</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+    
+    * {
+        font-family: Tiny5;
+    }
+    
+    #exemplo {
+        font-weight: 100;
+    }
+    #bold {
+        font-weight: bold;
+    }
+    div {
+        font-weight: bold;
+    }
+    div p {
+        font-weight: lighter;
+    }    
+    </style>
+</head>
+<body>
+    <h1>Fontes <mark>personalizadas</mark> no projeto</h1>
+
+    <p id="exemplo">Lorem <mark>italic</mark> ipsum, dolor sit amet consectetur adipisicing elit. Similique est pariatur ut? Inventore debitis saepe vel commodi facilis, facere dolorem dicta aspernatur sapiente aliquid, est cum explicabo totam illo quaerat.</p>
+    
+    <p id="bold">Lorem <mark>normal</mark> ipsum dolor sit amet, consectetur adipisicing elit. Itaque rem mollitia illum, eum voluptatem doloremque dolorum voluptatum recusandae fugit, sequi laudantium nihil! Quae nisi aspernatur cupiditate, similique doloremque illo autem?</p>
+    
+    <div>
+        Fonte pai
+            <p>Fonte filho</p>
+        </p>
+    </div>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+</body>
+</html>
